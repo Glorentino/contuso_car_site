@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contuso | Parts</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css" />
+        <script src="https://checkout.stripe.com/checkout.js" defer></script>
+        <script>
+            var stripePublicKey = '<%= stripePublicKey %>'
+        </script>
+        <script src="store.js" defer></script>
+    </head>
+    <body>
+        <header id="top_page" class="main-header">
+            <nav class="main-nav nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="/store">PARTS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="about.html">CONTACT US</a></li>
+                </ul>
+            </nav>
+            <h1 class="auto-name auto-name-large">Contuso</h1>
+            <h2 class="auto-name motto">The #1 Auto Parts Site</h2>
+        </header>
+        <section>
+            <div class="top_of_page">
+                <a href="#shop_cart">Shopping Cart</a>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 id="BMW" class="section-header">BMW</h2>
+            <h3 class="section-header">Auto Parts</h3>
+            <div class="shop-items">
+                <% items.bmw.forEach(function(item){ %>
+                    <div class="shop-item" data-item-id="<%= item.id %>">
+                        <span class="shop-item-title"><%= item.name %></span>
+                        <img class="shop-item-image" src="Images/<%= item.imgName %>">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$<%= item.price / 100 %></span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                <% }) %>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 id="ford" class="section-header">Ford</h2>
+            <h3 class="section-header">Auto Parts</h3>
+            <div class="shop-items">
+                <% items.ford.forEach(function(item){ %>
+                    <div class="shop-item" data-item-id="<%= item.id %>">
+                        <span class="shop-item-title"><%= item.name %></span>
+                        <img class="shop-item-image" src="Images/<%= item.imgName %>">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$<%= item.price / 100 %></span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                <% }) %>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 id="honda" class="section-header">Honda</h2>
+            <h3 class="section-header">Auto Parts</h3>
+            <div class="shop-items">
+                <% items.honda.forEach(function(item){ %>
+                    <div class="shop-item" data-item-id="<%= item.id %>">
+                        <span class="shop-item-title"><%= item.name %></span>
+                        <img class="shop-item-image" src="Images/<%= item.imgName %>">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$<%= item.price / 100 %></span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                <% }) %>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 id="hyundai"class="section-header">Hyundai</h2>
+            <h3 class="section-header">Auto Parts</h3>
+            <div class="shop-items">
+                <% items.hyundai.forEach(function(item){ %>
+                    <div class="shop-item" data-item-id="<%= item.id %>">
+                        <span class="shop-item-title"><%= item.name %></span>
+                        <img class="shop-item-image" src="Images/<%= item.imgName %>">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$<%= item.price / 100 %></span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                <% }) %>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 id="nissan" class="section-header">Nissan</h2>
+            <h3 class="section-header">Auto Parts</h3>
+            <div class="shop-items">
+                <% items.nissan.forEach(function(item){ %>
+                    <div class="shop-item" data-item-id="<%= item.id %>">
+                        <span class="shop-item-title"><%= item.name %></span>
+                        <img class="shop-item-image" src="Images/<%= item.imgName %>">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$<%= item.price / 100 %></span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                <% }) %>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 id="toyota" class="section-header">Toyota</h2>
+            <h3 class="section-header">Auto Parts</h3>
+            <div class="shop-items">
+                <% items.toyota.forEach(function(item){ %>
+                    <div class="shop-item" data-item-id="<%= item.id %>">
+                        <span class="shop-item-title"><%= item.name %></span>
+                        <img class="shop-item-image" src="Images/<%= item.imgName %>">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$<%= item.price / 100 %></span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                <% }) %>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 id="shop_cart"class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+        <section>
+            <div class="top_of_page">
+                <a href="#top_page">Top of page</a>
+            </div>
+        </section>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="auto-name">Contuso</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="Images/Facebook Logo.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
