@@ -1,0 +1,153 @@
+{
+  "bmw": [
+    {
+      "id": 1,
+      "name": "BMW M4 Stock Tires & Rims x4",
+      "price": 229999,
+      "imgName": "bmw m4 tires.jpg"
+    },
+    {
+      "id": 2,
+      "name": "BMW Ball Joint",
+      "price": 1499,
+      "imgName": "bmw_ball_joint.jpg"
+    },
+    {
+      "id": 3,
+      "name": "BMW M4 Turbo Engine",
+      "price": 10651,
+      "imgName": "bmw m4 engine.jpg"
+    },
+    {
+      "id": 4,
+      "name": "BMW Oil Filter",
+      "price": 1999,
+      "imgName": "bmw_oil_filter.jpg"
+    }
+  ],
+  "ford": [
+    {
+      "id": 5,
+      "name": "2015-2018 Ford Edge Air Filter",
+      "price": 3495,
+      "imgName": "ford_air_filter.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Ford F-250 Engine 6.7L",
+      "price": 1604300,
+      "imgName": "f-250 engine.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Ford F-150 Engine 3.5L",
+      "price": 479999,
+      "imgName": "f-150 engine.jpg"
+    },{
+      "id": 8,
+      "name": "Ford Oil Filter",
+      "price": 999,
+      "imgName": "Ford Oil Filter.jpg"
+    }
+  ],
+  "honda": [
+    {
+      "id": 9,
+      "name": "Honda Civic Emblem",
+      "price": 4999,
+      "imgName": "civic emblem.jpg"
+    },
+    {
+      "id": 10,
+      "name": "2021 Type R Turbo Engine",
+      "price": 800000,
+      "imgName": "2021 honda civi engine.jpg"
+    },
+    {
+      "id": 11,
+      "name": "2016 Honda Accord 16in Rims",
+      "price": 19999,
+      "imgName": "Honda Rims.jpg"
+    },{
+      "id": 12,
+      "name": "2019 Honda Type R 20in Rims",
+      "price": 25000,
+      "imgName": "civic rims.jpg"
+    }
+  ],
+  "hyundai": [
+    {
+      "id": 13,
+      "name": "Hyundai Elantra Front Fender",
+      "price": 7999,
+      "imgName": "hyundai sonata.jpg"
+    },
+    {
+      "id": 14,
+      "name": "2010 Hyundai Sonata Engine ",
+      "price": 169999,
+      "imgName": "sonata engine.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Hyundai Elantra Right Door",
+      "price": 29999,
+      "imgName": "Elantra Right Door.jpg"
+    },{
+      "id": 16,
+      "name": "2022 Hyundai Tucson Front Grille",
+      "price": 26999,
+      "imgName": "hyundai grill.jpg"
+    }
+  ],
+  "nissan": [
+    {
+      "id": 17,
+      "name": "Nissan GT-R 43.3in Wing Spoiler",
+      "price": 249999,
+      "imgName": "GT-R Wing (2).jpg"
+    },
+    {
+      "id": 18,
+      "name": "Nissan R-35 GT-R Engine",
+      "price": 5800000,
+      "imgName": "r35 engine.jpg"
+    },
+    {
+      "id": 19,
+      "name": "2010 Nissan GTR R35 Suspensions",
+      "price": 89999,
+      "imgName": "gtr springs.jpg"
+    },{
+      "id": 20,
+      "name": "2015 Nissan Sentra Engine",
+      "price": 25999,
+      "imgName": "sentra engine.jpg"
+    }
+  ],
+  "toyota": [
+    {
+      "id": 21,
+      "name": "2020 Toyota Supra Engine",
+      "price": 1299999,
+      "imgName": "Toyota Supra Engine.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Toyota Rav 4 Suspensions",
+      "price": 31999,
+      "imgName": "rav4 sus.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Toyota Supra Stock Rims x4",
+      "price": 49999,
+      "imgName": "supra rims.jpg"
+    },{
+      "id": 24,
+      "name": "2019 Toyota Tacoma 6 Cyl Engine",
+      "price": 472499,
+      "imgName": "tacoma engine.jpg"
+    }
+  ]
+}
