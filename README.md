@@ -2,10 +2,10 @@
 Node.js Shopping Cart Via Stripe API
 
 # Description
-An e-commerce car web app which utilizes Stripe API for transactions and ExpressJS for serverless.  
+An e-commerce car web app which utilizes Stripe API for transactions and ExpressJS/EJS for serverless.  
 
 # Installation
-https://nodejs.org/en/
+NodeJS installation - https://nodejs.org/en/
 npm install or yarn add (This will install ExpressJS, Stripe, etc)
 
 # Getting Started
