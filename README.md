@@ -1,5 +1,5 @@
 # Contuso Car Site
-Node.js Shopping Cart Via Stripe API
+
 
 # Description
 An e-commerce car web app which utilizes Stripe API for transactions and ExpressJS/EJS for serverless.  
